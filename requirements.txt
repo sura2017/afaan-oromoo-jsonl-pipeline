@@ -1,0 +1,6 @@
+# Core Pipeline dependencies
+# The pipeline is intentionally built using Python 3.9+ standard library modules
+# for maximum performance, streaming reliability, and zero dependency bloat.
+
+# Optional development and testing dependencies
+pytest>=7.0.0
