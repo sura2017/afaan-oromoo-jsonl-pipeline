@@ -1,0 +1,37 @@
+{
+  "proper_nouns": {
+    "atnaatewoos": "Atnaatewoos",
+    "iskindiriyaa": "Iskindiriyaa",
+    "iskindiriyaatti": "Iskindiriyaatti",
+    "inxoos": "Inxoos",
+    "finfinnee": "Finfinnee",
+    "finfinneetti": "Finfinneetti",
+    "oromiyaa": "Oromiyaa",
+    "oromiyaatti": "Oromiyaatti",
+    "itoophiyaa": "Itoophiyaa",
+    "itoophiyaatti": "Itoophiyaatti",
+    "oromoo": "Oromoo"
+  },
+
+  "hudhaa_rules": [
+    {
+      "pattern": "(\\b[a-zA-Z]+)\\s*['’`´]\\s*([a-zA-Z]+\\b)",
+      "replacement": "\\1'\\2"
+    }
+  ],
+  "unambiguous_replacements": {
+    "bu ' aa": "bu'aa",
+    "bu 'aa": "bu'aa",
+    "bu' aa": "bu'aa",
+    "duuka bu ' aa": "duuka bu'aa",
+    "duuka bu 'aa": "duuka bu'aa",
+    "duuka bu' aa": "duuka bu'aa",
+    "duuka bu 'ootaa": "duuka bu'ootaa",
+    "lakkaa ' amuuf": "lakkaa'amuuf",
+    "lakkaa 'amuuf": "lakkaa'amuuf",
+    "lakkaa' amuuf": "lakkaa'amuuf",
+    "ta ' e": "ta'e",
+    "ta ' a": "ta'a",
+    "har ' a": "har'a"
+  }
+}
